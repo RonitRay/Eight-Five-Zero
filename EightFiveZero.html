@@ -7,13 +7,12 @@
 	<title>[% title %]</title>
 	<meta name="generator" content="[% generator.name %]">
 	<meta name="viewport" content="width=device-width">
-	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek,latin-ext' rel='stylesheet' type='text/css'> -->
-	<![if !IE]>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <![if !IE]>
 	<!-- comment out for IE since it spams the user with warnings -->
-	<script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
-	<script type='text/javascript'>
-		$(window).load(function(){$("#navigation").height( $("#content").height()+65 );});
-	</script>
 	<![endif]>
 	<style>
 		*, *:before, *:after {
@@ -21,8 +20,8 @@
 		}
 		body, html {
 			height:100%;
-			font-family:'Open Sans', sans-serif;
-			line-height:1.5em;
+			font-family:'Roboto Slab', sans-serif;
+			line-height:1.5;
 			font-weight:300;
 			background-color:#FAFAFA;
 			text-rendering:geometricPrecision;
@@ -99,6 +98,7 @@
 		#content pre {
 			color: #6E1308;
 			margin-left: 20px;
+            		overflow-x: auto;
 		}
 		.backlinks {
 			color:gray;
@@ -144,4 +144,3 @@
 	</div>
 </body>
 </html>
-
