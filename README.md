@@ -5,7 +5,7 @@ I have basically:
 2. Changed the line-height CSS property to be unitless. Read why [here](https://ronitray.xyz/posts/line-height-units-css)
 3. Changed the font to Roboto-Slab, because I like it.
 
-TOODO (not a priority though):
+TODO (not a priority though):
 1. I will try to move the navigation to the bottom on mobile devices as described but not delivered by the original theme. Currently it is at the top of the page.
 
 This template is in action on [my personal wiki](https://wiki.ronitray.xyz/).
